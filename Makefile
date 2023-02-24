@@ -13,8 +13,10 @@ help:
 
 ########################################################################################################################
 
-update:
-	git merge --no-ff source/main -F readme.md
+init:
 	git submodule update --init
+
+update: init
+	git merge --no-ff source/main -F readme.md
 	git add -A
 	git commit -m "updates"
