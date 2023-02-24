@@ -13,10 +13,10 @@ help:
 
 ########################################################################################################################
 
-init:
+init: ## download and update subrepos
 	git submodule update --init
 
-update: init
+update: init ## update awesome list
 	git merge --no-ff source/main -F readme.md
 	git add -A
 	git commit -m "updates"
