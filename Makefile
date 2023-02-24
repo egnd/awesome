@@ -20,3 +20,6 @@ update: init ## update awesome list
 	git merge --no-ff source/main -F readme.md
 	git add -A
 	git commit -m "updates"
+	git pus	
+	git push origin master
+	@echo "All is OK"
