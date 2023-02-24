@@ -15,3 +15,6 @@ help:
 
 update:
 	git merge --no-ff source/main -F readme.md
+	git submodule update --init
+	git add -A
+	git commit -m "updates"

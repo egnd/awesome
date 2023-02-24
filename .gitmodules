@@ -1,0 +1,3 @@
+[submodule "awesome-selfhosted"]
+	path = awesome-selfhosted
+	url = https://github.com/awesome-selfhosted/awesome-selfhosted.git
