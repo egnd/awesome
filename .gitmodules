@@ -1,3 +1,6 @@
 [submodule "awesome-selfhosted"]
 	path = awesome-selfhosted
 	url = https://github.com/awesome-selfhosted/awesome-selfhosted.git
+[submodule "awesome-sysadmin"]
+	path = awesome-sysadmin
+	url = https://github.com/awesome-foss/awesome-sysadmin
